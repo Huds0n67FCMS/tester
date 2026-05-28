@@ -1,0 +1,627 @@
+*{
+margin: 0px;
+font-family: 'Press Start 2p', arial;
+}
+
+#metalman{
+background-color: rgb(220,40,75);
+}
+
+#metamanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-image: linear-gradient(to right, black, black, black, rgb(220,40,75));
+}
+
+#megamanlogo{
+height: 250px;
+width: 25%;
+}
+
+#metalmanemptyspace, #airmanemptyspace{
+height: 30px;
+width: 100%;
+}
+
+#metalmantop, #airmantop{
+height: 250px;
+width: 100%;
+display: flex;
+}
+
+#metalmanpic, #metalmanstage, #megamanstage{
+height: 250px;
+}
+
+#metalmanpic, #airmanpic{
+width: 20%;
+}
+
+#metalman1, #metalman2, #airman1, #airmain2{
+height: 250px;
+}
+
+#metalmanstage, #airmainstage{
+width: 60%;
+}
+
+#metalmanbottom, #airmanbottom{
+height: 600px;
+width: 100%;
+}
+
+h2{
+margin-top: 10px;
+height: 60px;
+width: 100%;
+text-align: center;
+color: white;
+}
+
+#leftrightcontainer{
+height: 560px;
+width: 100%;
+display: flex;
+}
+
+#metalmanleft, #metalmanright, #airmainleft, #airmainright{
+height: 560px;
+width: 50%;
+color: white;
+line-height: 20px;
+}
+
+#bossname{
+height: 250px;
+width: 75%;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 40px;
+color: white;
+}
+
+nav{
+height: 50px;
+width: 100%;
+background-color: black;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+a{
+height: 50px;
+width: auto;
+font-size: 18px;
+margin-right: 1.5px;
+margin-left: 1.5px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: white;
+text-decoration: none;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+#metalmanfooter, #airmainfooter{
+height: 200px;
+width: 100%;
+display: flex;
+}
+
+#socialmediaicon{
+height: 200px;
+width: 100px;
+}
+
+#x, #youtube, #instagram, #tiktok{
+height: 200px;
+width: 100px;
+}
+
+#legalstuff{
+margin-right: 40px;
+}
+
+#airmain{
+background-color: blue;
+}
+
+#airmanheader{
+height: 250px;
+width: 100%;
+display: flex;
+background-image: linear-gradient(to right, black, black, black, blue);
+}
+
+#bossselect{
+background-color: #0071EF;
+}
+
+#bossselectheader{
+background-color: #0071EF;
+height: 50px;
+width: 100%;
+position: relative;
+top: 30px;
+}
+
+#tophalfheader, #bottomhalfheader{
+height: 4px;
+width: 100%;
+border: solid 2.65px white;
+}
+
+#tophalfheader{
+border-top: solid 3.25px white;
+}
+
+#bottomhalfheader{
+border-bottom: solid 3.25px white;
+}
+
+#textcontentheader{
+height: 24px;
+width: 30%;
+position: absolute;
+top: 0px;
+left: 33.3%;
+z-index: 1;
+font-size: 24px;
+color: white;
+letter-spacing: 1.25px;
+background-color: #0071EF;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+#bossselectfirstrow{
+height: 50px;
+width: 100%;
+background-color: #0071EF;
+position: relative;
+top: 90px;
+}
+
+#skinny, #thick{
+width: 100%;
+background-color: #00EBDE;
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+#skinny{
+height: 2.2px;
+margin-top: 2.75px;
+margin-bottom: 2.75px;
+}
+
+#thick{
+height: 24px;
+}
+
+#bubblemansquare1,#airmansquare1,#quickmansquare1,#drwillysquare1,#heatmansquare1,#woodmansquare1,#crashmansquare1,#metalmansquare1,#flashmansquare1{
+height: 180px;
+width: 180px;
+background-color: white;
+border: solid 4px black;
+position: absolute;
+top: -60px;
+left: 20.5%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+#airmansquare1{
+	left:43%;
+}
+
+#quickmansquare1{
+	left:65.5%;
+}
+#bubblemansquare2,#airmansquare2,#quickmansquare2,#drwillysquare2,#heatmansquare2,#woodmansquare2,#crashmansquare2,#metalmansquare2,#flashmansquare2{
+height: 170px;
+width: 170px;
+background-color: cyan;
+border: solid 2px black;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#bubblemansquare3,#airmansquare3,#quickmansquare3,#drwillysquare3,#heatmansquare3,#woodmansquare3,#crashmansquare3,#metalmansquare3,#flashmansquare3{
+height: 155px;
+width: 155px;
+background-color: cyan;
+border: solid 4px white;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#headshotholder{
+height: 145px;
+width: 145px;
+justify-content: center;
+}
+
+#bubblemanheadshot,#airmanheadshot,#quickmanheadshot,#drwillyheadshot,#heatmanheadshot,#woodmanheadshot{
+	height:100%;
+	width:100%;
+}
+#drwillysquare1{
+	left:43%;
+}
+
+#woodmansquare1{
+	left:65.5%;
+}
+
+#blackcornersquare1{
+	height:18px;
+	width:18px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:black;
+}
+#blackcornersquare2{
+	height:18px;
+	width:18px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	background-color:black;
+}
+
+
+#blackcornersquare3{
+	height:18px;
+	width:18px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	background-color:black;
+}
+	
+	#blackcornersquare4{
+	height:18px;
+	width:18px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	background-color:black;
+	}
+	
+	#bossselectsecondrow{
+		height: 50px;
+width: 100%;
+background-color: #0071EF;
+position: absolute;
+top: 350px;
+	}
+	
+#bossselectthirdrow{
+			height: 50px;
+width: 100%;
+background-color: #0071EF;
+position: absolute;
+top: 600px;
+	}
+	
+
+	
+	#tophalfnameplate{
+		position:absolute;
+		top:180px;
+		left:15px;
+		font-size:20pt;
+		color:white;
+	}
+	
+	#bottomhalfnameplate{
+		position:absolute;
+		top:210px;
+		left:90px;
+		font-size:20pt;
+		color:white;
+		
+	}
+	
+	#bubblemanlink{
+		width: 140px;  
+  height: 140px;
+  position:absolute;
+  top:5px;
+  
+	}
+	
+	#bubblemanlink a{
+  width: 100%;
+  height: 100%;
+}
+		
+	#flashmansquare1{
+	left:43%;
+}
+
+#crashmansquare1{
+	left:65.5%;
+}
+
+	*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#metalman{
+background-color:rgb(220, 40, 75);
+}
+
+#metalmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#megamanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:WHITE;
+
+}
+
+nav{
+font-size:20pt;
+font-color:white;
+	background-color:black;
+	text-decoration:none;
+	
+}
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#bubbleman{
+background-color:green;
+}
+
+#bubblemanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#megamanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:white;
+
+}
+
+nav{
+font-size:20pt;
+color:white;
+	background-color:black;
+	text-decoration:none;
+	
+}
+
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#crashman{
+background-color:red;
+}
+
+#crashmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#megamanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:silver;
+
+}
+
+nav{
+font-size:20pt;
+color:yellow;
+	background-color:black;
+	text-decoration:none;
+	
+}
+
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#flashman{
+background-color:blue;
+}
+
+#flashmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#flashmanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:yellow;
+
+}
+
+nav{
+font-size:20pt;
+color:white;
+	background-color:yellow;
+	text-decoration:none;
+	
+}
+
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#heatman{
+background-color:red;
+}
+
+#heatmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+	color:yellow;
+}
+
+#heatmanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:yellow;
+
+}
+
+nav{
+font-size:20pt;
+color:yellow;
+	background-color:black;
+	text-decoration:none;
+	
+}
+
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#quickman{
+background-color:red;
+}
+
+#quickmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#megamanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:black;
+
+}
+
+nav{
+font-size:20pt;
+color:black;
+	background-color:black;
+	text-decoration:none;
+	
+}
+
+*{
+margin: 0px;
+font-family:'Press Start 2p';
+}
+
+#woodman{
+background-color:brown;
+}
+
+#woodmanheader{
+	height:250;
+	width:100%;
+	display:flex;
+}
+
+#megamanlogo{
+	height:250px;
+	width:100%;
+	display:flex;
+}
+#bossfight{
+	height:250px;
+	width:75%;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	font-size:100px;
+	color:grey;
+
+}
+
+nav{
+font-size:20pt;
+color:white;
+	background-color:black;
+	text-decoration:none;
+	
+}
